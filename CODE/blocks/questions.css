@@ -1,0 +1,32 @@
+.questions {
+    font-size: 18px;
+    line-height: 30px;
+    background-image: url(/IMGs/questions_backhround.png);
+    background-repeat: repeat-x;
+    background-position: left;
+    color: white;
+    margin-bottom: 50px;
+    /* width: 400px; */
+    /* height: 400px; */
+}
+
+.questions__container {
+    display: block;
+    padding: 40px 210px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+.questions span {
+    font-weight: 100;
+}
+
+.questions a {
+    font-weight: 900;
+    color: white;
+}
+
+.questions__phone {
+    text-decoration: none;
+}
+

@@ -1,0 +1,108 @@
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__item {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.menu__item-link:before {
+    padding-right: 35px;
+    content: "";
+    width: 23px;
+    height: 18px;
+}
+
+.menu__item-link {
+    text-decoration: none;
+    color: #5972b1;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2.4px;
+    transition: color 0.5s ease, background-image 0.5s ease;
+}
+
+.menu__item-link--narrow {
+    background-image: url(/IMGs/main_icon_blue.png);
+    background-repeat:  no-repeat;
+    
+}
+
+.menu__item-link--narrow:hover {
+    background-image: url(/IMGs/main_icon_black.png); 
+    background-repeat:  no-repeat;
+    color: black;
+    
+}
+
+/* .menu__item-link--narrow:before {
+    width: 17px;
+    height: 18px;
+} */
+
+
+.menu__item-link--star {
+    background-image: url(/IMGs/feed_icon_blue.png);
+    background-repeat:  no-repeat;
+}
+
+.menu__item-link--star:before {
+    width: 20px;
+    height: 18px;
+}
+
+
+.menu__item-link--star:hover {
+    background-image: url(/IMGs/feed_icon_black.png); 
+    background-repeat:  no-repeat;
+    color: black;
+}
+
+.menu__item-link--hat {
+    background-image: url(/IMGs/team_icon_blue.png);
+    background-repeat:  no-repeat;
+}
+
+.menu__item-link--hat:before {
+    width: 23px;
+    height: 18px;
+
+}
+
+.menu__item-link--hat:hover {
+    background-image: url(/IMGs/team_icon_black.png); 
+    background-repeat:  no-repeat;
+    color: black;
+}
+
+
+.menu__item-link--active--narrow {
+    background-image: url(/IMGs/main_icon_black.png);
+    background-repeat:  no-repeat;
+    color: black;
+}
+
+.menu__item-link--active--star {
+    background-image: url(/IMGs/feed_icon_black.png);
+    background-repeat:  no-repeat;
+    color: black;
+}
+
+.menu__item-link--active--hat {
+    background-image: url(/IMGs/team_icon_black.png);
+    background-repeat:  no-repeat;
+    color: black;
+}
+
+/* horizontal styles */
+
+.menu__list--horizontal {
+    flex-direction: row;
+}
+
+.menu__item {
+    margin-right: 96px;
+}

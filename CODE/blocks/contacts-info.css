@@ -1,0 +1,23 @@
+.contacts-info {
+    font-weight: 900;
+    font-style: normal;
+}
+
+.contacts-info__work-time {
+    display: inline-block;
+    border-bottom: 1px #ced5e8 solid;
+    line-height: 0.95;
+    font-size: 14px;
+    color: #ced5e8;
+
+}
+
+.contacts-info__num {
+    font-size: 21px;
+    margin-bottom: -5px;
+}
+
+.contacts-info__work-time:hover {
+    border-bottom: 1px white solid;
+    color: white;
+}

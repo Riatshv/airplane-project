@@ -1,0 +1,26 @@
+.outside__links {
+    display: flex;
+    
+}
+
+.outside__item {
+    margin-right: 10px;
+}
+
+.outside__link-el {
+    /* padding: 5px 3px; */
+    line-height: 1px;
+    border: 1px #d4ddf2 solid;
+    background-color:#d4ddf2 ;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+}
+
+.outside__link-el:hover {
+    background-color: white;
+}

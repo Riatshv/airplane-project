@@ -1,0 +1,20 @@
+
+.made-by {
+    font-weight: 100;
+    font-size: 14px;
+    color: white;
+    flex-basis: calc(100%/4.7);
+}
+
+.made-by a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+.made-by__loft {
+    display: inline-block;
+    border-bottom: 3px #adb7d5 solid;
+    line-height: 0.8;
+}

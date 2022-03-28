@@ -1,0 +1,82 @@
+.rates__icon-el {
+    display: block;
+    max-width: 100%;
+}
+
+.rates__icon {
+    display: inline-block;
+    background-color: #5973b1;
+    padding: 21px;
+    border-radius: 50%;
+    margin-bottom: 27px;
+}
+
+.rates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rates__item {
+    text-align: center;
+    width: 240px;
+    padding: 40px 25px;
+    margin-right: 25px;
+    border: 1px #e8e8ec solid;
+    border-color: white;
+    border-radius: 5px;
+    transition: border-color 0.5s ease;
+
+}
+
+.rates__info {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(26,24,24,0.7);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.rates__info-el {
+    list-style: disc;
+}
+
+
+.rates__item:hover {
+    border-color: #e8e8ec;
+    /* border: 1px #e8e8ec solid;
+    border-radius: 5px; */
+}
+
+.rates__icon-title {
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+}
+
+
+.rates__info--style {
+    list-style: none;
+}
+
+
+.rates__descr {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.rates__price {
+    font-size: 54px;
+}
+
+.rates__price:before {
+    content: "$";
+    font-size: 32px;
+}
+
+.rates {
+    margin-bottom: 30px;
+}

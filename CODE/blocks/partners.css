@@ -1,0 +1,90 @@
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.partners__logos {
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.partners__logos-bmp {
+    background-image: url(/IMGs/bmp.png);
+    height: 30px;
+    width: 159px;
+    transition: background-image 0.5s;
+}
+
+.partners__logos-bmp:hover {
+    background-image: url(/IMGs/bmp-active.png);
+}
+
+
+.partners__logos-tetra {
+    background-image: url(/IMGs/tetra.png);
+    height: 64px;
+    width: 161px;
+    transition: background-image 0.5s;
+}
+
+.partners__logos-tetra:hover {
+    background-image: url(/IMGs/tetra-active.png);
+}
+
+.partners__logos-syberia {
+    background-image: url(/IMGs/syberia.png);
+    height: 64px;
+    width: 133px;
+    transition: background-image 0.5s;
+}
+
+.partners__logos-syberia:hover {
+    background-image: url(/IMGs/syberia-active.png);
+}
+
+.partners__logos-one {
+    background-image: url(/IMGs/one-air.png);
+    height: 64px;
+    width: 141px;
+    transition: background-image 0.5s;
+
+}
+
+.partners__logos-one:hover {
+    background-image: url(/IMGs/one-air-active.png);
+
+}
+
+.partners__logos-bing {
+    background-image: url(/IMGs/bing-air.png);
+    height: 64px;
+    width: 46px;
+    transition: background-image 0.5s;
+}
+
+.partners__logos-bing:hover {
+    background-image: url(/IMGs/bing-air-active.png);
+}
+
+.partners__logos-ural {
+    background-image: url(/IMGs/ural.png);
+    height: 64px;
+    width: 82px;
+    transition: background-image 0.5s;
+}
+
+.partners__logos-ural:hover {
+    background-image: url(/IMGs/ural-active.png);
+}
+
+.partners__item {
+    flex-basis: 280px;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
